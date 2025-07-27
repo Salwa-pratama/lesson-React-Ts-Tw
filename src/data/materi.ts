@@ -67,7 +67,7 @@ const materi = [
     keterangan: "Sudah saya pelajari karena cuku penting",
   },
   {
-    materi: "State",
+    materi: "State Hooks",
     isLearn: false,
     keterangan: "Belum gwa pelajari",
   },
