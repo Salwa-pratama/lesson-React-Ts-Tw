@@ -5,6 +5,7 @@ import App from "./App.tsx";
 
 // (!) itu dari TypeScript Non-null assertion operator
 createRoot(document.getElementById("root")!).render(
+  // StricMOde ini untuk mode developming
   <StrictMode>
     <App />
   </StrictMode>
