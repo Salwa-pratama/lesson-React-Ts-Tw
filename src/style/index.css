@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* All font tahoma */
+
+@layer utilities {
+  body {
+    @apply font-tahoma;
+    background-color: black;
+    color: white;
+  }
+}
