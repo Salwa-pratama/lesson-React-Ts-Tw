@@ -11,17 +11,19 @@ import { useState } from "react";
 
 export default function L3() {
   return (
-    <>
-      {/* Section1 */}
-      <Section1 />
-      {/* Section2 */}
-      <Section2 isDeleted={false} />
-      {/* Section3 */}
-      <Section3 />
+    <section>
+      <div className="container">
+        {/* Section1 */}
+        <Section1 />
+        {/* Section2 */}
+        <Section2 isDeleted={false} />
+        {/* Section3 */}
+        <Section3 />
 
-      {/* Section4 */}
-      <Section4 />
-    </>
+        {/* Section4 */}
+        <Section4 />
+      </div>
+    </section>
   );
 }
 

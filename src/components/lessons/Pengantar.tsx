@@ -1,4 +1,3 @@
-import React from "react";
 import { titleSec, listStyle, tableStyle } from "../../script/styles";
 import { materi } from "../../data/materi";
 

@@ -4,12 +4,14 @@ import Counter from "./LessonsComp/Hook";
 export default function L4() {
   return (
     //
-    <>
-      {/* Section 1 */}
-      <Section1 />
-      {/* Section 2 */}
-      <Section2 />
-    </>
+    <section>
+      <div className="contaienr">
+        {/* Section 1 */}
+        <Section1 />
+        {/* Section 2 */}
+        <Section2 />
+      </div>
+    </section>
   );
 }
 

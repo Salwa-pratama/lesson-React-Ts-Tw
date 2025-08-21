@@ -10,16 +10,18 @@ import {
 // Main komponen
 export default function L2() {
   return (
-    <>
-      {/* Section 1 */}
-      <Section1 img1={codeImage1} img2={codeImage2} />
+    <section>
+      <div className="container">
+        {/* Section 1 */}
+        <Section1 img1={codeImage1} img2={codeImage2} />
 
-      {/* Section 2 */}
-      <Section2 />
+        {/* Section 2 */}
+        <Section2 />
 
-      {/* Section3 */}
-      <Section3 />
-    </>
+        {/* Section3 */}
+        <Section3 />
+      </div>
+    </section>
   );
 }
 
@@ -61,7 +63,7 @@ function Section1({ img1, img2 }: { img1: string; img2: string }) {
       <h1 className="pl-3 font-bold text-white">
         Berikut yang bisa ditambahkan di props
       </h1>
-      
+
       <table className="bg-stone-800 text-white w-full border border-stone-700 mb-10">
         <thead>
           <tr className="bg-stone-700">
