@@ -1,50 +1,52 @@
 import { listStyle, titleSec } from "../../script/styles";
 export default function Part1_useStated() {
   return (
-    <div>
-      <section>
-        <h1 className="font-bold text-3xl text-center p-5 mt-0 text-sky-500">
-          Pendahuluan Tentang JSX
-        </h1>
+    <section>
+      <div className="container">
+        <section>
+          <h1 className="font-bold text-3xl text-center p-5 mt-0 text-sky-500">
+            Pendahuluan Tentang JSX
+          </h1>
 
-        <h1 className={titleSec}>Component</h1>
-        <ul className={listStyle}>
-          <li>React Component mendukung semua elemen HTML dan SVG </li>
-          <li>
-            Jadi kita tidak perlu khawatir ketika membuat Component, karena
-            semua elemen pasti didukung
-          </li>
-          <li>
-            Link Dokumentasi{" "}
-            <a href="">
-              <u>https://react.dev/reference/react-dom/components</u>
-            </a>
-          </li>
-          <li>Support all element HTML</li>
-        </ul>
-      </section>
-      {/* Section2 */}
-      <Section2 />
-      {/* section3 */}
-      <Section3 />
-      {/* Section4 */}
-      <Section4 />
-      <section>
-        <h1 className={titleSec}>JSX Converter</h1>
-        <ul className={listStyle}>
-          <li>Jadi disini ada web yang bisa mengonversi HTML ke JSX</li>
-          <li>
-            Berikut Websitenya :{" "}
-            <a href="https://transform.tools/html-to-jsx">
-              <u className="text-blue-600">
-                https://transform.tools/html-to-jsx{" "}
-              </u>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <Section5 />
-    </div>
+          <h1 className={titleSec}>Component</h1>
+          <ul className={listStyle}>
+            <li>React Component mendukung semua elemen HTML dan SVG </li>
+            <li>
+              Jadi kita tidak perlu khawatir ketika membuat Component, karena
+              semua elemen pasti didukung
+            </li>
+            <li>
+              Link Dokumentasi{" "}
+              <a href="">
+                <u>https://react.dev/reference/react-dom/components</u>
+              </a>
+            </li>
+            <li>Support all element HTML</li>
+          </ul>
+        </section>
+        {/* Section2 */}
+        <Section2 />
+        {/* section3 */}
+        <Section3 />
+        {/* Section4 */}
+        <Section4 />
+        <section>
+          <h1 className={titleSec}>JSX Converter</h1>
+          <ul className={listStyle}>
+            <li>Jadi disini ada web yang bisa mengonversi HTML ke JSX</li>
+            <li>
+              Berikut Websitenya :{" "}
+              <a href="https://transform.tools/html-to-jsx">
+                <u className="text-blue-600">
+                  https://transform.tools/html-to-jsx{" "}
+                </u>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <Section5 />
+      </div>
+    </section>
   );
 }
 
