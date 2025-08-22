@@ -5,6 +5,7 @@ import L2 from "../components/lessons/L2";
 import L3 from "../components/lessons/L3";
 import L4 from "../components/lessons/L4";
 import CollectionComp from "../components/lessons/CollectionComp";
+import ReactHook from "../components/lessons/ReactHook";
 
 export const appRoutes = [
   { path: "/", element: <Home />, index: true },
@@ -14,4 +15,5 @@ export const appRoutes = [
   { path: "/L3", element: <L3 /> },
   { path: "/L4", element: <L4 /> },
   { path: "/L5", element: <CollectionComp /> },
+  { path: "/L6", element: <ReactHook /> },
 ];

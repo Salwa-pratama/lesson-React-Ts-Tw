@@ -37,8 +37,8 @@ const materi = [
   },
   {
     materi: "Collection Components",
-    isLearn: false,
-    keterangan: "Saya Skip dulu",
+    isLearn: true,
+    keterangan: "Sudah karena cukup berguna",
   },
   { materi: "Pure Component", isLearn: false, keterangan: "Saya Skip dulu" },
   {

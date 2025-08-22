@@ -5,4 +5,5 @@ export const links = [
   { label: "Lesson 3", href: "/L3" },
   { label: "Lesson 4", href: "/L4" },
   { label: "Collection Components", href: "/L5" },
+  { label: "React Hook", href: "/L6" },
 ];
